@@ -1,0 +1,279 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    border-bottom: 2px solid grey;
+   /* position: fixed; */
+   background-color: white;
+    
+}
+header address a {
+    color: orangered;
+    text-decoration: none;
+}
+header address{
+    margin: 48px 115px 0px 241px;
+    font-size: 25px;
+}
+header button{
+    width: 124px;
+    height: 42px;
+    margin: 41px -27px 0px 41px;
+    font-size:20px;
+    font-family:system-ui;
+    background-color:lightskyblue;
+    cursor:pointer
+}
+header button:hover{
+    background-color: red;
+    color: white;
+}
+section{
+    display: flex;
+}
+.one{
+    height: 440px;
+    width: 19%;
+    border-bottom: 2px solid #a99999;
+    /* border-top: 2px solid #a99999; */
+    border-right: 2px solid #a99999;
+    padding-left: 20px;
+    line-height: 46px;
+    padding-top: 30px;
+    box-shadow: 1px 1px 1px 1px grey;
+    display: flex;
+    margin-top: 20px;
+    background-color: white;
+    
+    
+}
+.one ul{
+    list-style: none;
+    
+}
+.one ul li a{
+    color:grey;
+    font-size: 20px;
+    text-decoration: none;
+}
+.one ul li a:hover{
+    color: aqua;
+    
+}
+.one ul li:hover{
+    background-color: lightgray;
+}
+.one nav ul li .groceries{
+    display: none;
+    position: absolute;
+    left: 200px;
+    top: -2px;
+    border: 2px solid #a99999;
+    width: 230px;
+    padding-left: 17px;
+    box-shadow: 1px 1px 1px 1px grey;
+    background-color: white;
+}
+.one nav ul li:hover .groceries{
+    display: block;
+} 
+.one nav ul li{
+    position: relative;
+}
+.one nav ul li .groceries li .beverages{
+    display: none;
+    position: absolute;
+    left: 200px;
+    top: -1px;
+    border: 2px solid #a99999;
+    width: 208px;
+    padding-left: 17px;
+    box-shadow: 1px 1px 1px 1px grey;
+    background-color: white;
+}
+.one nav ul li .groceries li:hover .beverages{
+    display: block;
+} 
+.one nav ul li .groceries li{
+    position: relative;
+}
+.one nav ul li .groceries li .fresh-products{
+    display: none;
+    position: absolute;
+    left: 200px;
+    top: -1px;
+    border: 2px solid #a99999;
+    width: 208px;
+    padding-left: 17px;
+    box-shadow: 1px 1px 1px 1px grey;
+    background-color: white;
+}
+.one nav ul li .groceries li:hover .fresh-products{
+    display: block;
+} 
+.one nav ul li .groceries li{
+    position: relative;
+}
+.one nav ul li .groceries li .Food-staples{
+    display: none;
+    position: absolute;
+    left: 200px;
+    top: -1px;
+    border: 2px solid #a99999;
+    width: 208px;
+    padding-left: 17px;
+    box-shadow: 1px 1px 1px 1px grey;
+    background-color: white;
+} 
+.one nav ul li .groceries li:hover .Food-staples{
+display: block;
+}
+.one nav ul li .groceries li{
+    position: relative;
+}
+.one nav ul li .Health{
+    display: none;
+    position: absolute;
+    left: 200px;
+    top: -2px;
+    border: 2px solid #a99999;
+    width: 230px;
+    padding-left: 17px;
+    box-shadow: 1px 1px 1px 1px grey;
+    background-color: white;
+}
+.one nav ul li:hover .Health{
+    display: block;
+} 
+.one nav ul li .Men{
+    display: none;
+    position: absolute;
+    left: 200px;
+    top: -2px;
+    border: 2px solid #a99999;
+    width: 230px;
+    padding-left: 17px;
+    box-shadow: 1px 1px 1px 1px grey;
+    background-color: white;
+}
+.one nav ul li:hover .Men{
+    display: block;
+} 
+.one nav ul li .watches{
+    display: none;
+    position: absolute;
+    left: 200px;
+    top: -2px;
+    border: 2px solid #a99999;
+    width: 230px;
+    padding-left: 17px;
+    box-shadow: 1px 1px 1px 1px grey;
+    background-color: white;
+}
+.one nav ul li:hover .watches{
+    display: block;
+} 
+.one nav ul li .watches li .Man{
+    display: none;
+    position: absolute;
+    left: 200px;
+    top: -1px;
+    border: 2px solid #a99999;
+    width: 208px;
+    padding-left: 17px;
+    box-shadow: 1px 1px 1px 1px grey;
+    background-color: white;
+}
+.one nav ul li .watches li:hover .Man{
+    display: block;
+} 
+.one nav ul li .Auto{
+    display: none;
+    position: absolute;
+    left: 200px;
+    top: -2px;
+    border: 2px solid #a99999;
+    width: 230px;
+    padding-left: 17px;
+    box-shadow: 1px 1px 1px 1px grey;
+    background-color: white;
+}
+.one nav ul li:hover .Auto{
+    display: block;
+}
+.one nav ul li .Auto li .Cars{
+    display: none;
+    position: absolute;
+    left: 200px;
+    top: -1px;
+    border: 2px solid #a99999;
+    width: 208px;
+    padding-left: 17px;
+    box-shadow: 1px 1px 1px 1px grey;
+    background-color: white;
+}
+.one nav ul li .Auto li:hover .Cars{
+    display: block;
+}
+.image img{
+    width: 1065px;
+    margin-left: 17px;
+    height: 428px;
+    margin-top: 20px;
+}
+.two img{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 200px;
+    width: 200px;
+    border: 3px solid;
+    cursor: pointer;
+}
+.two h1 {
+    width: 85%;
+    font-family: system-ui;
+    font-weight: 500;
+    padding-left: 22px;
+}
+.two h2{
+    color: orange;
+    width: 63%;
+    font-family: system-ui;
+    font-weight: 500;
+    padding-left: 22px;
+}
+.two h3 {
+    width: 63%;
+    font-family: system-ui;
+    font-weight: 500;
+    padding-left: 22px;
+    color: grey;
+}
+.two h3 ins{
+    text-decoration: none;
+    color: grey;
+} 
+.main{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+footer h1{
+    text-align: center;
+    margin-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+footer figure img{
+    height: 70px;
+    width: 90px;
+    cursor: pointer;
+    padding-left: 30px;
+    
+}
+figure{
+    margin-left: 500px;
+    margin-top: 52px;
+}
